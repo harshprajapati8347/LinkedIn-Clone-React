@@ -9,6 +9,8 @@
 
 .sidebar__avatar {
   margin-bottom: 10px;
+  text-transform: capitalize;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 
 .sidebar__top {
