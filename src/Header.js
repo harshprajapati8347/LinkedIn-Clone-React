@@ -38,10 +38,7 @@ const Header = () => {
           <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
           <HeaderOption Icon={ChatIcon} title="Messaging" />
           <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-          <HeaderOption
-            avatar="https://media-exp1.licdn.com/dms/image/C4D03AQGyBtCQv5z-Dw/profile-displayphoto-shrink_200_200/0/1608010276294?e=1620259200&v=beta&t=sZF-h1BDYIR7i2cVSgwWWZgJSgnjvfwq8DViJaYZJ44"
-            onClick={logoutOfApp}
-          />
+          <HeaderOption avatar="true" onClick={logoutOfApp} />
         </div>
       </div>
     </>

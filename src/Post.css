@@ -22,11 +22,16 @@
   overflow-wrap: anywhere;
 }
 
-.post__body > h2{
-    font-style: 15px;
+.post__body > h2 {
+  font-style: 15px;
 }
 
-.post__buttons{
+.post__buttons {
   display: flex;
   justify-content: space-evenly;
+}
+
+#avatar {
+  text-transform: capitalize;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }

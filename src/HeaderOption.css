@@ -1,23 +1,28 @@
-.headerOption{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
-    color: gray;
-    cursor: pointer;
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
 }
 
-.headerOption:hover{
-    color: black;
+.headerOption:hover {
+  color: black;
 }
 
-.headerOption__title{
-    font-size: 12px;
-    font-weight: 400;
+.headerOption__title {
+  font-size: 12px;
+  font-weight: 400;
 }
 
-.headerOption__icon{
-    object-fit: contain;
-    height: 25px;
-    /* height: 25px !important; */
+.headerOption__icon {
+  object-fit: contain;
+  height: 25px;
+  /* height: 25px !important; */
+}
+
+#avatar {
+  text-transform: capitalize;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
