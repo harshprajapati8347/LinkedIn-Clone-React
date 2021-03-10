@@ -67,6 +67,7 @@ const Login = () => {
           value={name}
           onChange={(e) => setName(e.target.value)}
           type="text"
+          required
         />
         <input
           placeholder="Profile pic URL (Optional)"

@@ -34,11 +34,11 @@ const Sidebar = () => {
       <div className="sidebar__stats">
         <div className="sidebar__stat">
           <p>Who viewed you</p>
-          <div className="sidebar__statNumber">2,543</div>
+          <div className="sidebar__statNumber">45</div>
         </div>
         <div className="sidebar__stat">
           <p>Views on the Post</p>
-          <div className="sidebar__statNumber">2,443</div>
+          <div className="sidebar__statNumber">400</div>
         </div>
       </div>
 
